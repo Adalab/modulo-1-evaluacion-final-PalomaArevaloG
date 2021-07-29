@@ -1,0 +1,20 @@
+.main__info {
+    &--smallheading {
+        color: $lightblue;
+        font-family: $font-secondary;
+        font-size: 14px;
+    }
+    &--strongheading {
+        font-family: $font-main;
+        font-size: 24px;
+    }
+    &--description {
+        font-family: $font-secondary;
+        font-size: 18px;
+    }
+    &--button__go {
+        font-family: $font-secondary;
+        color: $bright-orange;
+        font-size: 20px;
+    }
+}

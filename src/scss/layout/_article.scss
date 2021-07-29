@@ -1,0 +1,14 @@
+.wrapper--article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 70px 45px 70px;
+    &__heading {
+        font-family: $font-main;
+        font-size: 18px;
+    }
+    &__description {
+        font-family: $font-secondary;
+        font-size: 18px;
+    }
+}

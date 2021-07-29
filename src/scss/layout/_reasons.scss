@@ -1,0 +1,18 @@
+.main__reasons {
+    text-align: center;
+    padding: 30px 15px 60px;
+    &--leadheading {
+        font-family: $font-main;
+        font-size: 24px;
+        margin-bottom: 45px;
+    }
+    .button__more {
+        font-family: $font-secondary;
+        background-color: $bright-orange;
+        color: #ffffff;
+        font-size: 20px;
+        border-radius: 22.5px;
+        width: 184px;
+        height: 45px;
+    }
+}
