@@ -1,20 +1,32 @@
 .main__info {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px 45px 15px;
     &--smallheading {
         color: $lightblue;
         font-family: $font-secondary;
         font-size: 14px;
+        text-transform: capitalize;
     }
     &--strongheading {
         font-family: $font-main;
         font-size: 24px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
     }
     &--description {
         font-family: $font-secondary;
         font-size: 18px;
+        color: $greyish-brown;
+        margin-bottom: 30px;
     }
     &--button__go {
         font-family: $font-secondary;
         color: $bright-orange;
+        width: 76px;
+        height: 45px;
         font-size: 20px;
+        border-radius: 22.5px;
+        border: solid 2px $bright-orange;
     }
 }
