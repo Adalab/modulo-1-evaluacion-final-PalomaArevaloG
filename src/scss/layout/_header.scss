@@ -1,0 +1,42 @@
+.header {
+    border: blue 1px solid;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    background: url($pathImages + "cover.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ico-menu {
+    left: 0%;
+}
+
+.header__page {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    &--title {
+        font-family: $font-main;
+        font-size: 42px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    &--motto {
+        font-family: $font-secondary;
+        font-size: 16px;
+    }
+}
+
+.ico-scroll-down {
+    margin: 45px 122px 0 92px;
+    padding: 18px 12px 15.3px 13px;
+    border-radius: 22.5px;
+    background-color: #ffffff;
+}
