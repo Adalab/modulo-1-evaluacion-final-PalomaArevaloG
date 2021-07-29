@@ -1,1 +1,27 @@
+.footer__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: $dark-grey-blue;
+    color: #ffffff;
+    font-family: $font-secondary;
+    padding: 60px 15px 45px;
+    row-gap: 30px;
+}
 
+.footer__container {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    &--sections {
+        margin: 0px 123px 30px 122px;
+    }
+    &--social {
+        margin: 30px 71px 0px 72px;
+    }
+}
+
+.footer__copy {
+    font-size: 14px;
+}
