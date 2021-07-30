@@ -1,7 +1,13 @@
 .main__info {
     display: flex;
     flex-direction: column;
-    margin: 30px 15px 45px 15px;
+    padding: 30px 15px 45px 15px;
+    @media (min-width: 720px) {
+        padding: 30px 39px 60px 39px;
+    }
+    @media (min-width: 1140px) {
+        padding: 60px 275px 60px 275px;
+    }
     &--smallheading {
         color: $lightblue;
         font-family: $font-secondary;
