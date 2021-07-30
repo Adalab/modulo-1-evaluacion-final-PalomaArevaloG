@@ -23,16 +23,18 @@
 
 .ico-arrow {
     margin: auto;
-    left: 50%;
-    transform: translateX(-50%);
+    transform: translateY(-84px);
     padding: 10px 12.4px 10px 12px;
     border-radius: 22.5px;
     background-color: #ffffff;
     z-index: 999;
-    top: 26px;
     position: relative;
     @media (min-width: 720px) {
-        top: 74px;
+        right: 35vw;
+    }
+    @media (min-width: 1140px) {
+        right: 18vw;
+        transform: translateY(-69px);
     }
 }
 
