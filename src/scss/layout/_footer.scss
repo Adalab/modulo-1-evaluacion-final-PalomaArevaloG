@@ -15,8 +15,8 @@
         align-items: flex-start;
         justify-content: center;
     }
-    @media (min-width: 1200px) {
-        margin: 45px 370px 45px 370px;
+    @media (min-width: 1140px) {
+        padding: 45px 370px 45px 370px;
     }
 }
 
@@ -46,12 +46,18 @@
             margin: 0px;
             width: 210px;
         }
+        @media (min-width: 1140px) {
+            width: 159px;
+        }
     }
     &--social {
         margin: 0px 71px 0px 72px;
         @media (min-width: 720px) {
             margin: 0px;
             width: 210px;
+        }
+        @media (min-width: 1140px) {
+            width: 159px;
         }
     }
     @media (min-width: 720px) {
@@ -65,5 +71,8 @@
     margin-bottom: 45px;
     &--icon {
         color: $bright-orange;
+    }
+    @media (min-width: 1140px) {
+        width: 159px;
     }
 }

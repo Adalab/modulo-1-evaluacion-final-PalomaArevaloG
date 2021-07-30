@@ -1,11 +1,52 @@
 .main__reasons {
     text-align: center;
     padding: 30px 15px 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     &--leadheading {
         font-family: $font-main;
         font-size: 24px;
         margin-bottom: 45px;
         text-transform: capitalize;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        @media (min-width: 720px) {
+            grid-column: 1/4;
+            grid-row: 1/2;
+        }
+        @media (min-width: 1140px) {
+            padding: 60px 80px 60px 80px;
+        }
+    }
+    @media (min-width: 720px) {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 45px;
+    }
+    .reason1 {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        @media (min-width: 720px) {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+    }
+    .reason2 {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        @media (min-width: 720px) {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+    }
+    .reason3 {
+        grid-column: 1/4;
+        grid-row: 4/5;
+        @media (min-width: 720px) {
+            grid-column: 3/4;
+            grid-row: 2/3;
+        }
     }
     .button__more {
         font-family: $font-secondary;
@@ -16,5 +57,14 @@
         border: none;
         width: 184px;
         height: 45px;
+        grid-row: 5/5;
+        grid-column: 2/3;
+        margin-top: 45px;
+        @media (min-width: 720px) {
+            grid-column: 3/2;
+            grid-row: 3/4;
+            margin-top: 60px;
+            justify-self: center;
+        }
     }
 }
