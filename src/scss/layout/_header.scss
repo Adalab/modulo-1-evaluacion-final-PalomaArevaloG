@@ -26,24 +26,24 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 15px;
     &--title {
         font-family: $font-main;
         font-size: 42px;
         text-transform: uppercase;
-        margin: 240px 0 10px 15px;
-        width: 290px;
+        margin: 50vw 15px 10px 15px;
     }
     &--motto {
         font-family: $font-secondary;
         font-size: 16px;
-        margin: 0px 0 45px 15px;
+        margin: 0px 15px 45px 15px;
     }
 }
 
 .ico-scroll-down {
-    margin: 0px 122px 53px 92px;
     padding: 18px 12px 15.3px 13px;
     border-radius: 22.5px;
     background-color: #ffffff;
+    margin: auto;
+    transform: translateX(-50%);
+    position: relative;
 }
