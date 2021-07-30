@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    text-align: center;
+    justify-content: flex-end;
     background: url($pathImages + "cover.jpg") no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,11 +14,15 @@
 .menu {
     left: 0%;
     position: fixed;
+    top: 0;
     background: $cerulean;
+    width: 44px;
+    height: 44px;
     &-ico {
         width: 16px;
         height: 14px;
         object-fit: contain;
+        padding: 15px 14px 15px 14px;
     }
 }
 
@@ -30,12 +36,24 @@
         font-family: $font-main;
         font-size: 42px;
         text-transform: uppercase;
-        margin: 50vw 15px 10px 15px;
+        margin: 284px 15px 10px 15px;
+        @media (min-width: 720px) {
+            margin: 384px 39px 20px 39px;
+        }
+        @media (min-width: 1140px) {
+            margin: 384px 275px 0px 275px;
+        }
     }
     &--motto {
         font-family: $font-secondary;
         font-size: 16px;
         margin: 0px 15px 45px 15px;
+        @media (min-width: 720px) {
+            margin: 0px 204px 30px 204px;
+        }
+        @media (min-width: 1140px) {
+            margin: 0px 275px 30px 275px;
+        }
     }
 }
 
@@ -43,7 +61,13 @@
     padding: 18px 12px 15.3px 13px;
     border-radius: 22.5px;
     background-color: #ffffff;
-    margin: auto;
+    margin: 0px 122px 53px 122px;
     transform: translateX(-50%);
     position: relative;
+    @media (min-width: 720px) {
+        margin: 0px 362px 45px 361px;
+    }
+    @media (min-width: 1140px) {
+        margin: 30px 618px 13px 617px;
+    }
 }
