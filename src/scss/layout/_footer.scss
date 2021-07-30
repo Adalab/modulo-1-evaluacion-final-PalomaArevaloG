@@ -14,6 +14,7 @@
     text-transform: uppercase;
     font-size: 16px;
     text-align: center;
+    text-decoration: none;
     &--sections {
         margin: 0px 123px 30px 122px;
     }
@@ -24,4 +25,7 @@
 
 .footer__copy {
     font-size: 14px;
+    &--icon {
+        color: $bright-orange;
+    }
 }
