@@ -12,6 +12,7 @@
         color: $lightblue;
         font-family: $font-secondary;
         font-size: 14px;
+        font-weight: 400;
         text-transform: capitalize;
     }
     &--strongheading {
@@ -23,12 +24,14 @@
     &--description {
         font-family: $font-secondary;
         font-size: 18px;
+        font-weight: 400;
         color: $greyish-brown;
         margin-bottom: 30px;
     }
     &--button__go {
         font-family: $font-secondary;
         color: $bright-orange;
+        font-weight: 500;
         width: 76px;
         height: 45px;
         font-size: 20px;
