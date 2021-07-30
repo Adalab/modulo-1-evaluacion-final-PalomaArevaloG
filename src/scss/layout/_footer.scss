@@ -8,7 +8,16 @@
     font-family: $font-secondary;
     padding: 60px 45px;
     row-gap: 30px;
-    @media (min: width 720px) {}
+    @media (min-width: 720px) {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 45px 39px 45px 39px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    @media (min-width: 1200px) {
+        margin: 45px 370px 45px 370px;
+    }
 }
 
 .ico-arrow {
@@ -21,6 +30,9 @@
     z-index: 999;
     top: 26px;
     position: relative;
+    @media (min-width: 720px) {
+        top: 74px;
+    }
 }
 
 .footer__container {
@@ -30,9 +42,21 @@
     text-decoration: none;
     &--sections {
         margin: 0px 123px 30px 122px;
+        @media (min-width: 720px) {
+            margin: 0px;
+            width: 210px;
+        }
     }
     &--social {
         margin: 0px 71px 0px 72px;
+        @media (min-width: 720px) {
+            margin: 0px;
+            width: 210px;
+        }
+    }
+    @media (min-width: 720px) {
+        display: flex;
+        flex-direction: row;
     }
 }
 
