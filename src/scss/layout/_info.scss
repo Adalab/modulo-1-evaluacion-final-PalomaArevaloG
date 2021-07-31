@@ -37,5 +37,10 @@
         font-size: 20px;
         border-radius: 22.5px;
         border: solid 2px $bright-orange;
+        &:hover {
+            color: #ffffff;
+            background-color: $bright-orange;
+            transform: scale(1.5);
+        }
     }
 }
