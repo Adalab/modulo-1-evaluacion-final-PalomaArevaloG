@@ -37,26 +37,3 @@ He podido aplicar el temario del curso con las siguientes tecnologías:
 2. Abre una terminal en la carpeta Master.
 3. Instala dependencias locales con `npm install`
 4. Arranca el proyecto con `npm start`
-
-## Estructura de carpetas
-
-Aquí os dejo la estructura de mi carpeta src con las tecnologías utilizadas en cada una
-
-src
-└─ html
-├─ partials
-├─ article
-├─ footer
-└─ pages
-├─ images
-| └─ logo.jpg
-├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
-| ├─ main.js
-| └─ events.js
-├─ scss
-| ├─ components
-| ├─ core
-| ├─ layout
-| └─ pages
-
-└─ partials
