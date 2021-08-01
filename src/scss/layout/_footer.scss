@@ -12,7 +12,7 @@
     @media (min-width: 720px) {
         display: flex;
         flex-direction: row-reverse;
-        margin: 45px 39px 45px 39px;
+        padding: 45px 39px 45px 39px;
         align-items: flex-start;
         justify-content: center;
     }
@@ -45,6 +45,7 @@
     animation-iteration-count: 3;
     @media (min-width: 720px) {
         left: 50vw;
+        transform: translateY(-67px);
     }
     @media (min-width: 1140px) {
         transform: translateY(-66px);
