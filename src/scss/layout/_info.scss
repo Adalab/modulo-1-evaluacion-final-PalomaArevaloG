@@ -25,9 +25,11 @@
         text-transform: capitalize;
         @media (min-width: 720px) {
             font-size: 26px;
+            order: -1;
         }
         @media (min-width: 1140px) {
             font-size: 32px;
+            order: 0;
         }
     }
     &--description {
@@ -35,14 +37,16 @@
         font-size: 18px;
         font-weight: 400;
         color: $greyish-brown;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         @media (min-width: 720px) {
             font-size: 20px;
+            margin-bottom: 30px;
         }
     }
     &--button__go {
         font-family: $font-secondary;
-        color: $bright-orange;
+        background-color: $bright-orange;
+        color: #ffffff;
         font-weight: 500;
         width: 76px;
         height: 45px;
@@ -50,8 +54,8 @@
         border-radius: 22.5px;
         border: solid 2px $bright-orange;
         &:hover {
-            color: #ffffff;
-            background-color: $bright-orange;
+            color: $bright-orange;
+            background-color: #ffffff;
             transform: scale(1.5);
         }
     }

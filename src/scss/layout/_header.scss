@@ -66,8 +66,10 @@
     background-color: #ffffff;
     margin: 0px 122px 53px 122px;
     position: relative;
+    visibility: hidden;
     @media (min-width: 720px) {
         margin: 0px 362px 45px 361px;
+        visibility: visible;
     }
     @media (min-width: 1140px) {
         margin: 30px 618px 13px 617px;
