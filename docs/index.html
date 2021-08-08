@@ -14,8 +14,6 @@
 
 <body>
     <div class="page">
-        <!-- El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la página de Adalab. Este menú de hamburguesa no despliega
-        ningún submenú. Primer módulo (Anonymous proxy): debe estar maquetado con flexbox y debe ocupar el alto de la ventana del navegador. -->
         <!--Hago dos divs, uno para el menú hamburguesa y otro para el titulo y el lema porque se comportan de manera diferente-->
 
         <header class="header">
@@ -29,50 +27,47 @@
                 <a href="./index.html#reasons" alt="reasons" title="reasons"><img class="ico-scroll-down" src="./assets/images/ico-scroll-down.svg" alt="down" /></a>
             </div>
         </header>
+        <main>
+            <section class="main__info">
+                <h4 class="main__info--smallheading">Insomnia tips</h4>
+                <h2 class="main__info--strongheading">Looking through a window</h2>
+                <p class="main__info--description">
+                    Donec accumsam, nulla ut volutpat portittor, quam odio tempus felis, at luctus exdiamnec lectus.Vivamus semper sodales rutrum.
+                </p>
+                <button class="main__info--button__go">Go</button>
+            </section>
+            </section>
+            <section class="main__reasons" id="reasons">
 
-        <!-- Segundo módulo (Looking Through A Window): se puede maquetar usando las propiedades de CSS que se deseen. Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid en todos los tamaños de pantalla. -->
-        <section class="main__info">
-            <h4 class="main__info--smallheading">Insomnia tips</h4>
-            <h2 class="main__info--strongheading">Looking through a window</h2>
-            <p class="main__info--description">
-                Donec accumsam, nulla ut volutpat portittor, quam odio tempus felis, at luctus exdiamnec lectus.Vivamus semper sodales rutrum.
-            </p>
-            <button class="main__info--button__go">Go</button>
-        </section>
-        </section>
-        <section class="main__reasons" id="reasons">
+                <h2 class="main__reasons--leadheading">
+                    3 reasons to purchase
+                </h2>
+                <div class="reason1">
+                    <article class="article">
+                        <h3 class="article__heading">Ut sed metus</h3>
+                        <p class="article__description">Lorem ipsum dolor sit amet, consecteur.</p>
+                    </article>
 
-            <h2 class="main__reasons--leadheading">
-                3 reasons to purchase
-            </h2>
-            <div class="reason1">
-                <article class="article">
-                    <h3 class="article__heading">Ut sed metus</h3>
-                    <p class="article__description">Lorem ipsum dolor sit amet, consecteur.</p>
-                </article>
+                </div>
+                <div class="reason2">
+                    <article class="article">
+                        <h3 class="article__heading">Curabitur ac erat</h3>
+                        <p class="article__description">Mauris mattis urna quis lorem molestie.</p>
+                    </article>
+                </div>
+                <div class="reason3">
+                    <article class="article">
+                        <h3 class="article__heading">Morbi dictum</h3>
+                        <p class="article__description">Aliquam in dolor et dolor tincidunt.</p>
+                    </article>
+                </div>
 
-            </div>
-            <div class="reason2">
-                <article class="article">
-                    <h3 class="article__heading">Curabitur ac erat</h3>
-                    <p class="article__description">Mauris mattis urna quis lorem molestie.</p>
-                </article>
-            </div>
-            <div class="reason3">
-                <article class="article">
-                    <h3 class="article__heading">Morbi dictum</h3>
-                    <p class="article__description">Aliquam in dolor et dolor tincidunt.</p>
-                </article>
-            </div>
+                <button class="button__more">
+                    More reasons
+                  </button>
 
-            <button class="button__more">
-                More reasons
-              </button>
-
-        </section>
-
-        <!-- Cuarto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la columna "ARTICLES" y todos los textos de la columna "TWITTER" deben ser enlaces a la página de Adalab.
-         -->
+            </section>
+        </main>
 
         <footer class="footer__page">
             <a href="./index.html#top" alt="top" title="top"><img class="ico-arrow" src="./assets/images/ico-arrow.svg" alt="top" /></a>
